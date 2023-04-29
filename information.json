@@ -1,0 +1,73 @@
+[
+    {
+      "paperTitle": "The Impact of Climate Change on Biodiversity",
+      "abstract": "This paper explores the effects of climate change on the diversity of species and ecosystems around the world.",
+      "author":{
+      "firstName": "Sarah",
+      "lastName": "Jones",
+      "email": "sarahjones@email.com",
+      "affiliation": "University of Oxford"
+      }
+    },
+    {
+      "paperTitle": "The Future of Autonomous Vehicles",
+      "abstract": "This paper discusses the current state of autonomous vehicle technology and its potential impact on the transportation industry.",
+      "author":{
+      "firstName": "Michael",
+      "lastName": "Chen",
+      "email": "michaelchen@email.com",
+      "affiliation": "Massachusetts Institute of Technology"
+      }
+    },
+    {
+      "paperTitle": "The Psychology of Decision Making",
+      "abstract": "This paper examines the cognitive processes involved in decision making and discusses the factors that influence our choices.",
+      "author":{
+      "firstName": "Emily",
+      "lastName": "Wilson",
+      "email": "emilywilson@email.com",
+      "affiliation": "University of California, Berkeley"
+      }
+    },
+    {
+        "paperTitle": "The Ethics of Artificial Intelligence",
+        "abstract": "This paper explores the ethical considerations surrounding the development and deployment of artificial intelligence systems.",
+        "author":{
+        "firstName": "Alex",
+        "lastName": "Nguyen",
+        "email": "alexnguyen@email.com",
+        "affiliation": "Stanford University"
+        }
+      },
+      {
+        "paperTitle": "The Future of Work in the Digital Age",
+        "abstract": "This paper discusses the impact of automation and digital technologies on the nature of work and employment in the 21st century.",
+        "author":{
+        "firstName": "Karen",
+        "lastName": "Smith",
+        "email": "karensmith@email.com",
+        "affiliation": "Harvard University"
+        }
+      },
+      {
+        "paperTitle": "The Role of Artificial Intelligence in Financial Markets",
+        "abstract": "This paper examines the potential applications of artificial intelligence in financial markets and discusses the challenges and opportunities presented by this technology.",
+        "author":{
+        "firstName": "David",
+        "lastName": "Garcia",
+        "email": "davidgarcia@email.com",
+        "affiliation": "University of Chicago"
+        }
+      },
+      {
+        "paperTitle": "The Science of Sleep",
+        "abstract": "This paper explores the biological and psychological factors that influence sleep and discusses the health implications of sleep deprivation.",
+        "author":{
+        "firstName": "Julia",
+        "lastName": "Lee",
+        "email": "julialeee@email.com",
+        "affiliation": "University of California, San Diego"
+        }
+      }
+
+  ]

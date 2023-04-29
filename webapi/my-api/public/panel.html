@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles\mycss.css">
+
+    
+    <title>Panel</title>
+    <!-- <script>
+        document.addEventListener('DOMContentLoaded', () => {
+          // get the form element
+          const form = document.querySelector('form');
+      
+          // add an event listener for the submit event
+          form.addEventListener('submit', (event) => {
+            // prevent the form from submitting
+            event.preventDefault();
+      
+            // get the form data
+            const paperTitle = document.querySelector('#paper-title').value;
+            const abstract = document.querySelector('#abstract').value;
+            const firstName = document.querySelector('#first-name').value;
+            const lastName = document.querySelector('#last-name').value;
+            const email = document.querySelector('#email').value;
+            const affiliation = document.querySelector('#affiliation').value;
+      
+            // send the data to the server
+            const data = {
+              paperTitle: paperTitle,
+              abstract: abstract,
+              author: {
+                firstName: firstName,
+                lastName: lastName,
+                email: email,
+                affiliation: affiliation
+              }
+            };
+            const xhr = new XMLHttpRequest();
+            xhr.open('POST', 'save-data.php');
+            xhr.setRequestHeader('Content-Type', 'application.json');
+            xhr.send(JSON.stringify(data));
+      
+            // notify the user that the data has been saved
+            alert('Your data has been saved to information.json');
+          });
+        });
+      </script> -->
+      
+      
+      
+      
+</head>
+<body class="panelBody">
+    <div class="sidePanel">
+        
+        <!-- <div class="topBar">
+            <a href=""><img src="./images/logoutLogo.png" id="logoutLogo" alt=""></a>
+        </div> -->
+
+        <img src="./images/userLogo.png" id="userLogo" alt="">
+
+        <div class="menu">
+            <!-- navigations should be displayed here -->
+            <!-- <ul>
+                <li><a href="#">Add paper</a></li>
+                <li><a href="#">test</a></li>
+                <li><a href="#">test</a></li>
+            </ul> -->
+        </div>
+    
+    
+    </div>
+
+    <div class="contentPanel">
+        <!-- the main stuff should be displayed here -->
+
+        <!-- <input type="text" id="inputField" name="inputField" placeholder="Enter the text"><br> -->
+        <h1>Enter Paper Details</h1>
+    <form>
+      <label for="paper-title">Paper Title:</label>
+      <input type="text" id="paper-title" name="paper-title"><br><br>
+      
+      <label for="abstract">Abstract:</label>
+      <textarea id="abstract" name="abstract" rows="5" cols="50"></textarea><br><br>
+      
+      <h2>Author Information:</h2>
+      <label for="first-name">First Name:</label>
+      <input type="text" id="first-name" name="first-name"><br><br>
+      
+      <label for="last-name">Last Name:</label>
+      <input type="text" id="last-name" name="last-name"><br><br>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email"><br><br>
+      
+      <label for="affiliation">Affiliation:</label>
+      <input type="text" id="affiliation" name="affiliation"><br><br>
+      
+      <input type="submit" value="Submit">
+    </form>
+       
+       
+        
+    
+    </div>
+
+
+
+    <!-- js link -->
+    <script src="script\index.js"></script>
+</body>
+
+
+</html>
